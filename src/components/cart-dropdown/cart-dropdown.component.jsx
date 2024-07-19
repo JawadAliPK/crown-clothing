@@ -29,7 +29,7 @@ const CartDropdown = () => {
           <EmptyMessage>Your cart is empty</EmptyMessage>
         )}
       </CartItems>
-      <Button>Go to Checkout</Button>
+      <Button onClick={gotToCheckoutHandler}>Go to Checkout</Button>
     </CartDropdownContainer>
   );
 };
