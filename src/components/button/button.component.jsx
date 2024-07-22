@@ -20,7 +20,7 @@ const getButton = (buttonType = BUTTON_TYPE_CLASSES.base) =>
 const Button = ({ children, buttonType, ...otherProps }) => {
   const CustomButton = getButton(buttonType);
 
-  return <button {...otherProps}>{children}</button>;
+  return <CustomButton {...otherProps}>{children}</CustomButton>;
 };
 
 export default Button;
